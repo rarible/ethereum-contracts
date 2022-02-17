@@ -84,6 +84,12 @@ object Tuples {
   val erc1155ReplacementPattern =
     Tuple5Type(Bytes32Type, Bytes32Type, Uint256Type, Uint256Type, BytesType)
 
+  val merkleValidatorErc721ReplacementPattern =
+    Tuple5Type(Bytes32Type, Bytes32Type, Bytes32Type, Uint256Type, Bytes32Type, VarArrayType(Bytes32Type))
+
+  val merkleValidatorErc1155ReplacementPattern =
+    Tuple5Type(Bytes32Type, Bytes32Type, Bytes32Type, Uint256Type, Uint256Type, Bytes32Type, VarArrayType(Bytes32Type))
+
   def keccak256(str: String): Word = keccak256(str.getBytes(Charsets.US_ASCII))
 
   def keccak256(bytes: Bytes): Word = keccak256(bytes.bytes)
