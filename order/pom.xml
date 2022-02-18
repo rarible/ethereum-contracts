@@ -78,11 +78,6 @@
                             <type>MONO</type>
                         </contract>
                         <contract>
-                            <truffle>src/main/truffle/exchange/wyvern/WyvernExchangeWithBulkCancellations.json</truffle>
-                            <packageName>com.rarible.protocol.contracts.exchange.wyvern.v2</packageName>
-                            <type>MONO</type>
-                        </contract>
-                        <contract>
                             <truffle>src/main/truffle/common/opensea/MerkleValidator.json</truffle>
                             <packageName>com.rarible.protocol.contracts.common.opensea.merkle</packageName>
                             <type>MONO</type>
