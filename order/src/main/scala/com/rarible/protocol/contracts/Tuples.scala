@@ -36,6 +36,12 @@ object Tuples {
   val legacyOrderHashType =
     Tuple1Type(Tuple4Type(Tuple4Type(AddressType, Uint256Type, Tuple3Type(AddressType, Uint256Type, Uint8Type), Tuple3Type(AddressType, Uint256Type, Uint8Type)), Uint256Type, Uint256Type, Uint256Type))
 
+  val openseaV1HashTypeP1 =
+    Tuple22Type(Bytes32Type, AddressType, AddressType, AddressType, Uint256Type, Uint256Type, Uint256Type, Uint256Type, AddressType, Uint8Type, Uint8Type, Uint8Type, AddressType, Uint8Type, Bytes32Type, Bytes32Type, AddressType, Bytes32Type, AddressType, Uint256Type, Uint256Type, Uint256Type)
+
+  val openseaV1HashTypeP2 =
+    Tuple3Type(Uint256Type, Uint256Type, Uint256Type)
+
   val assetTypeType =
     Tuple2Type(Bytes4Type, BytesType)
 
