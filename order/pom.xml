@@ -71,6 +71,11 @@
                             <packageName>com.rarible.protocol.contracts.exchange.v1.state</packageName>
                             <type>MONO</type>
                         </contract>
+                        <contract>
+                            <truffle>src\main\truffle\exchange\meta-tx\v1\EIP712MetaTransaction.json</truffle>
+                            <packageName>com.rarible.protocol.contracts.exchange.metatx</packageName>
+                            <type>MONO</type>
+                        </contract>
                         <!--exchange wyvern -->
                         <contract>
                             <truffle>src/main/truffle/exchange/wyvern/WyvernExchange.json</truffle>
