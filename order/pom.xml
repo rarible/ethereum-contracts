@@ -108,6 +108,18 @@
                             <packageName>com.rarible.protocol.contracts.common.wyvern.token</packageName>
                             <type>MONO</type>
                         </contract>
+                        <!-- ZeroEx exchange -->
+                        <contract>
+                            <truffle>src/main/truffle/exchange/zeroEx/ZeroExExchange.json</truffle>
+                            <packageName>com.rarible.protocol.contracts.exchange.zero.ex</packageName>
+                            <type>MONO</type>
+                        </contract>
+                        <!-- ZeroEx fee wrapper -->
+                        <contract>
+                            <truffle>src/main/truffle/exchange/zeroEx/ZeroExFeeWrapper.json</truffle>
+                            <packageName>com.rarible.protocol.contracts.exchange.zero.ex</packageName>
+                            <type>MONO</type>
+                        </contract>
                         <contract>
                             <truffle>src/main/truffle/common/erc721//TestERC721.json</truffle>
                             <packageName>com.rarible.protocol.contracts.common.erc721</packageName>
