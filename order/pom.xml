@@ -102,7 +102,7 @@
                             <packageName>com.rarible.protocol.contracts.common.wyvern.atomicizer</packageName>
                             <type>MONO</type>
                         </contract>
-                        
+
                         <contract>
                             <truffle>src/main/truffle/common/wyvern/token/TestToken.json</truffle>
                             <packageName>com.rarible.protocol.contracts.common.wyvern.token</packageName>
@@ -148,6 +148,13 @@
                         <contract>
                             <truffle>src/main/truffle/auction/v1/AuctionHouse.json</truffle>
                             <packageName>com.rarible.protocol.contracts.auction.v1</packageName>
+                            <type>MONO</type>
+                        </contract>
+
+                        <!--wrapper exchange-->
+                        <contract>
+                            <truffle>src/main/truffle/exchange/wrapper/ExchangeWrapper.json</truffle>
+                            <packageName>com.rarible.protocol.contracts.exchange.wrapper</packageName>
                             <type>MONO</type>
                         </contract>
                     </contracts>
