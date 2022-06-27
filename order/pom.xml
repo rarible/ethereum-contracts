@@ -102,6 +102,12 @@
                             <packageName>com.rarible.protocol.contracts.common.wyvern.atomicizer</packageName>
                             <type>MONO</type>
                         </contract>
+                        <!--exchange seaport -->
+                        <contract>
+                            <abi>src/main/truffle/exchange/seaport/v1/SeaportV1.json</abi>
+                            <packageName>com.rarible.protocol.contracts.exchange.seaport.v1</packageName>
+                            <type>MONO</type>
+                        </contract>
 
                         <contract>
                             <truffle>src/main/truffle/common/wyvern/token/TestToken.json</truffle>
