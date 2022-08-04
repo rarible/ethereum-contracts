@@ -113,7 +113,13 @@
                             <packageName>com.rarible.protocol.contracts.exchange.seaport.v1</packageName>
                             <type>MONO</type>
                         </contract>
-
+                        <!--exchange looksrare -->
+                        <contract>
+                            <truffle>src/main/truffle/exchange/looksrare/LooksrareExchangeV1.json</truffle>
+                            <packageName>com.rarible.protocol.contracts.exchange.looksrare.v1</packageName>
+                            <type>MONO</type>
+                        </contract>
+                        <!-- exchange wyvern -->
                         <contract>
                             <truffle>src/main/truffle/common/wyvern/token/TestToken.json</truffle>
                             <packageName>com.rarible.protocol.contracts.common.wyvern.token</packageName>
