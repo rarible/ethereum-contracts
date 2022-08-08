@@ -174,6 +174,13 @@
                             <packageName>com.rarible.protocol.contracts.exchange.wrapper</packageName>
                             <type>MONO</type>
                         </contract>
+
+                        <!-- x2y2 -->
+                        <contract>
+                            <abi>src/main/truffle/exchange/x2y2/v1/X2Y2_r1.json</abi>
+                            <packageName>com.rarible.protocol.contracts.exchange.x2y2.v1</packageName>
+                            <type>MONO</type>
+                        </contract>
                     </contracts>
                 </configuration>
             </plugin>
