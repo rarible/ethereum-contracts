@@ -33,10 +33,10 @@
     </distributionManagement>
 
     <properties>
-        <revision>1.0.31</revision>
+        <revision>1.0.32</revision>
 
-        <rarible.core.version>2.0.13</rarible.core.version>
-        <rarible.ethereum.version>1.4.8</rarible.ethereum.version>
+        <rarible.core.version>2.4.22</rarible.core.version>
+        <rarible.ethereum.version>1.6.1</rarible.ethereum.version>
         <scalether.version>0.1.4</scalether.version>
     </properties>
 
