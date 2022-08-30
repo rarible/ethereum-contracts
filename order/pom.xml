@@ -119,6 +119,17 @@
                             <packageName>com.rarible.protocol.contracts.exchange.looksrare.v1</packageName>
                             <type>MONO</type>
                         </contract>
+                        <!--sudoswap -->
+                        <contract>
+                            <truffle>src/main/truffle/exchange/sudoswap/LSSVMPairFactoryV1.json</truffle>
+                            <packageName>com.rarible.protocol.contracts.exchange.sudoswap.v1.factory</packageName>
+                            <type>MONO</type>
+                        </contract>
+                        <contract>
+                            <truffle>src/main/truffle/exchange/sudoswap/LSSVMPairV1.json</truffle>
+                            <packageName>com.rarible.protocol.contracts.exchange.sudoswap.v1.pair</packageName>
+                            <type>MONO</type>
+                        </contract>
                         <!-- exchange wyvern -->
                         <contract>
                             <truffle>src/main/truffle/common/wyvern/token/TestToken.json</truffle>
