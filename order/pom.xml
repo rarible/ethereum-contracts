@@ -130,6 +130,11 @@
                             <packageName>com.rarible.protocol.contracts.exchange.sudoswap.v1.pair</packageName>
                             <type>MONO</type>
                         </contract>
+                        <contract>
+                            <abi>src/main/truffle/exchange/sudoswap/ICurveV1.json</abi>
+                            <packageName>com.rarible.protocol.contracts.exchange.sudoswap.v1.curve</packageName>
+                            <type>MONO</type>
+                        </contract>
                         <!-- exchange wyvern -->
                         <contract>
                             <truffle>src/main/truffle/common/wyvern/token/TestToken.json</truffle>
