@@ -135,6 +135,12 @@
                             <packageName>com.rarible.protocol.contracts.exchange.sudoswap.v1.curve</packageName>
                             <type>MONO</type>
                         </contract>
+                        <!-- exchange gemswap -->
+                        <contract>
+                            <abi>src/main/truffle/exchange/gemswap/GemSwapV1.json</abi>
+                            <packageName>com.rarible.protocol.contracts.exchange.gemswap.v1</packageName>
+                            <type>MONO</type>
+                        </contract>
                         <!-- exchange wyvern -->
                         <contract>
                             <truffle>src/main/truffle/common/wyvern/token/TestToken.json</truffle>
