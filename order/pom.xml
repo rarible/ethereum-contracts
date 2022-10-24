@@ -121,11 +121,6 @@
                         </contract>
                         <!--sudoswap -->
                         <contract>
-                            <truffle>src/main/truffle/exchange/sudoswap/LSSVMPairERC20.json</truffle>
-                            <packageName>com.rarible.protocol.contracts.exchange.sudoswap.v1.factory</packageName>
-                            <type>MONO</type>
-                        </contract>
-                        <contract>
                             <truffle>src/main/truffle/exchange/sudoswap/LSSVMPairFactoryV1.json</truffle>
                             <packageName>com.rarible.protocol.contracts.exchange.sudoswap.v1.factory</packageName>
                             <type>MONO</type>
