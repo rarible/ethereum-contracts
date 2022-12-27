@@ -251,6 +251,12 @@
             <groupId>com.rarible.ethereum</groupId>
             <artifactId>rarible-ethereum-contracts-interfaces</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.rarible.core</groupId>
+            <artifactId>rarible-core-test-common</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 </project>
