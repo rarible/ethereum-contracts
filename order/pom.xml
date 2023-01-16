@@ -192,7 +192,7 @@
 
                         <!--wrapper exchange-->
                         <contract>
-                            <truffle>src/main/truffle/exchange/wrapper/ExchangeWrapper.json</truffle>
+                            <abi>src/main/truffle/exchange/wrapper/ExchangeWrapper.json</abi>
                             <packageName>com.rarible.protocol.contracts.exchange.wrapper</packageName>
                             <type>MONO</type>
                         </contract>
