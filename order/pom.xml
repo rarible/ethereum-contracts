@@ -119,6 +119,12 @@
                             <packageName>com.rarible.protocol.contracts.exchange.looksrare.v1</packageName>
                             <type>MONO</type>
                         </contract>
+                        <!--exchange blur -->
+                        <contract>
+                            <abi>src/main/truffle/exchange/blur/v1/BlurV1.json</abi>
+                            <packageName>com.rarible.protocol.contracts.exchange.blur.v1</packageName>
+                            <type>MONO</type>
+                        </contract>
                         <!--sudoswap -->
                         <contract>
                             <truffle>src/main/truffle/exchange/sudoswap/LSSVMPairFactoryV1.json</truffle>
