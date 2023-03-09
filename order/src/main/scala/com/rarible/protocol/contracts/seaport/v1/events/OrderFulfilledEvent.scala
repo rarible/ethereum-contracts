@@ -1,11 +1,10 @@
 package com.rarible.protocol.contracts.seaport.v1.events
 
 import io.daonomic.rpc.domain.Word
-import scalether.abi.{AddressType, Bytes32Type, Event, Uint256Type, Uint8Type}
+import scalether.abi._
 import scalether.abi.array.VarArrayType
 import scalether.abi.tuple.{Tuple2Type, Tuple4Type, Tuple5Type}
 import scalether.domain.request.{LogFilter, TopicFilter}
-import scalether.domain.request.TopicFilter.simple
 import scalether.domain.{Address, response}
 
 import java.math.BigInteger
@@ -13,6 +12,7 @@ import java.math.BigInteger
 
 case class OrderFulfilledEvent(log: response.Log, offerer: Address, zone: Address, orderHash: Array[Byte], recipient: Address, offer: Array[(BigInteger, Address, BigInteger, BigInteger)], consideration: Array[(BigInteger, Address, BigInteger, BigInteger, Address)])
 
+// The same for v1.1 and v1.4
 object OrderFulfilledEvent {
   import TopicFilter.simple
 

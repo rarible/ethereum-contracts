@@ -113,6 +113,11 @@
                             <packageName>com.rarible.protocol.contracts.exchange.seaport.v1</packageName>
                             <type>MONO</type>
                         </contract>
+                        <contract>
+                            <abi>src/main/truffle/exchange/seaport/v1_4/SeaportV1_4.json</abi>
+                            <packageName>com.rarible.protocol.contracts.exchange.seaport.v1_4</packageName>
+                            <type>MONO</type>
+                        </contract>
                         <!--exchange looksrare -->
                         <contract>
                             <truffle>src/main/truffle/exchange/looksrare/LooksrareExchangeV1.json</truffle>
