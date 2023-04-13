@@ -1,4 +1,4 @@
-package com.rarible.protocol.contracts.seaport.v1.events
+package com.rarible.protocol.contracts.looksrare.v2
 
 import io.daonomic.rpc.domain.Word
 import scalether.abi._
