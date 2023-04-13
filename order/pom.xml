@@ -124,6 +124,11 @@
                             <packageName>com.rarible.protocol.contracts.exchange.looksrare.v1</packageName>
                             <type>MONO</type>
                         </contract>
+                        <contract>
+                            <abi>src/main/truffle/exchange/looksrare/LooksrareExchangeV2.json</abi>
+                            <packageName>com.rarible.protocol.contracts.exchange.looksrare.v2</packageName>
+                            <type>MONO</type>
+                        </contract>
                         <!--exchange blur -->
                         <contract>
                             <abi>src/main/truffle/exchange/blur/v1/BlurV1.json</abi>
