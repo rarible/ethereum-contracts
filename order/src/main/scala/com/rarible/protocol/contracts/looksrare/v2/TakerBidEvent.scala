@@ -15,7 +15,7 @@ object TakerBidEvent {
   import TopicFilter.simple
 
   val event = Event("TakerBid", List(Tuple3Type(Bytes32Type, Uint256Type, BoolType), AddressType, AddressType, Uint256Type, AddressType, AddressType, VarArrayType(Uint256Type), VarArrayType(Uint256Type), FixArrayType(2, AddressType), FixArrayType(3, Uint256Type)), UnitType, Tuple10Type(Tuple3Type(Bytes32Type, Uint256Type, BoolType), AddressType, AddressType, Uint256Type, AddressType, AddressType, VarArrayType(Uint256Type), VarArrayType(Uint256Type), FixArrayType(2, AddressType), FixArrayType(3, Uint256Type)))
-  val id: Word = Word.apply("0x9aaa45d6db2ef74ead0751ea9113263d1dec1b50cea05f0ca2002cb8063564a4")
+  val id: Word = Word.apply("0x3ee3de4684413690dee6fff1a0a4f92916a1b97d1c5a83cdf24671844306b2e3")
 
   def filter(): LogFilter =
     LogFilter(topics = List(simple(id)))
