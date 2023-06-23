@@ -2,7 +2,7 @@ package com.rarible.protocol.contracts
 
 import io.daonomic.rpc.domain.{Bytes, Word}
 import kotlin.text.Charsets
-import org.web3j.crypto.Hash
+import org.web3jold.crypto.Hash
 import scalether.abi._
 import scalether.abi.array.VarArrayType
 import scalether.abi.tuple._
