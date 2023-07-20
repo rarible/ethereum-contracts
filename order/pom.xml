@@ -140,6 +140,11 @@
                             <packageName>com.rarible.protocol.contracts.exchange.blur.v2</packageName>
                             <type>MONO</type>
                         </contract>
+                        <contract>
+                            <abi>src/main/truffle/exchange/blur/v1/BlurExchangeV2.json</abi>
+                            <packageName>com.rarible.protocol.contracts.exchange.blur.exchange.v2</packageName>
+                            <type>MONO</type>
+                        </contract>
                         <!--sudoswap -->
                         <contract>
                             <truffle>src/main/truffle/exchange/sudoswap/LSSVMPairFactoryV1.json</truffle>
