@@ -167,6 +167,11 @@
                             <packageName>com.rarible.protocol.contracts.erc721.mint</packageName>
                             <type>MONO</type>
                         </contract>
+                        <contract>
+                            <abi>src/main/truffle/erc721/thirdweb/DropERC721.json</abi>
+                            <packageName>com.rarible.protocol.contracts.erc721.thirdweb</packageName>
+                            <type>MONO</type>
+                        </contract>
                         <!--ERC-1155-->
                         <contract>
                             <truffle>src/main/truffle/erc1155/sale/ERC1155Sale_v1.json</truffle>
