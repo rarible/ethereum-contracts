@@ -245,6 +245,12 @@
                             <packageName>com.rarible.protocol.contracts.royalties</packageName>
                             <type>MONO</type>
                         </contract>
+                        <!--ENS-->
+                        <contract>
+                            <abi>src/main/truffle/ens/v1/ENS.json</abi>
+                            <packageName>com.rarible.protocol.contracts.ens.v1</packageName>
+                            <type>MONO</type>
+                        </contract>
                     </contracts>
                 </configuration>
             </plugin>
