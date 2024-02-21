@@ -91,6 +91,16 @@
                             <packageName>com.rarible.protocol.contracts.exchange.multisig.gs2</packageName>
                             <type>MONO</type>
                         </contract>
+                        <contract>
+                            <truffle>src\main\truffle\exchange\multisig\AccountV3Upgradable.json</truffle>
+                            <packageName>com.rarible.protocol.contracts.exchange.multisig.av3</packageName>
+                            <type>MONO</type>
+                        </contract>
+                        <contract>
+                            <truffle>src\main\truffle\exchange\multisig\MainModuleUpgradable.json</truffle>
+                            <packageName>com.rarible.protocol.contracts.exchange.multisig.mmu</packageName>
+                            <type>MONO</type>
+                        </contract>
                         <!--exchange wyvern -->
                         <contract>
                             <truffle>src/main/truffle/exchange/wyvern/WyvernExchange.json</truffle>
