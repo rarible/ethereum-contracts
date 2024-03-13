@@ -251,6 +251,27 @@
                             <packageName>com.rarible.protocol.contracts.ens.v1</packageName>
                             <type>MONO</type>
                         </contract>
+                        <!--ONFT-->
+                        <contract>
+                            <abi>src/main/truffle/onft/IONFT721Core.json</abi>
+                            <packageName>com.rarible.protocol.contracts.onft.erc721</packageName>
+                            <type>MONO</type>
+                        </contract>
+                        <contract>
+                            <abi>src/main/truffle/onft/IONFT1155Core.json</abi>
+                            <packageName>com.rarible.protocol.contracts.onft.erc1155</packageName>
+                            <type>MONO</type>
+                        </contract>
+                        <contract>
+                            <truffle>src/main/truffle/onft/ONFT721MOCK.json</truffle>
+                            <packageName>com.rarible.protocol.contracts.onft.test.erc721</packageName>
+                            <type>MONO</type>
+                        </contract>
+                        <contract>
+                            <truffle>src/main/truffle/onft/ONFT1155MOCK.json</truffle>
+                            <packageName>com.rarible.protocol.contracts.onft.test.erc1155</packageName>
+                            <type>MONO</type>
+                        </contract>
                     </contracts>
                 </configuration>
             </plugin>
