@@ -272,6 +272,12 @@
                             <packageName>com.rarible.protocol.contracts.onft.test.erc1155</packageName>
                             <type>MONO</type>
                         </contract>
+                        <!--TeleportIn/TeleportOut-->
+                        <contract>
+                            <truffle>src/main/truffle/teleport/TokenERC1155Bridge.json</truffle>
+                            <packageName>com.rarible.protocol.contracts.teleport.erc1155</packageName>
+                            <type>MONO</type>
+                        </contract>
                     </contracts>
                 </configuration>
             </plugin>
