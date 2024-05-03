@@ -278,6 +278,12 @@
                             <packageName>com.rarible.protocol.contracts.teleport.erc1155</packageName>
                             <type>MONO</type>
                         </contract>
+                        <!--IOwnable-->
+                        <contract>
+                            <truffle>src/main/truffle/thirdweb/IOwnable.json</truffle>
+                            <packageName>com.rarible.protocol.contracts.thirdweb</packageName>
+                            <type>MONO</type>
+                        </contract>
                     </contracts>
                 </configuration>
             </plugin>
