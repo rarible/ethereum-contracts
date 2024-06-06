@@ -62,8 +62,13 @@
                             <type>MONO</type>
                         </contract>
                         <contract>
-                            <truffle>src/main/truffle/exchange/v2/ExchangeV2rev3.json</truffle>
+                            <truffle>src/main/truffle/exchange/v2/rev3/ExchangeV2.json</truffle>
                             <packageName>com.rarible.protocol.contracts.exchange.v2.rev3</packageName>
+                            <type>MONO</type>
+                        </contract>
+                        <contract>
+                            <truffle>src/main/truffle/exchange/v2/rev4/ExchangeV2.json</truffle>
+                            <packageName>com.rarible.protocol.contracts.exchange.v2.rev4</packageName>
                             <type>MONO</type>
                         </contract>
                         <contract>
