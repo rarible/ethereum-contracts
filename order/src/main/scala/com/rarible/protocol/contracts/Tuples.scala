@@ -60,6 +60,12 @@ object Tuples {
   val orderDataV2Type =
     Tuple1Type(Tuple3Type(VarArrayType(addressUintType), VarArrayType(addressUintType), Uint8Type))
 
+  val orderDataV3SellType =
+    Tuple1Type(Tuple5Type(Uint256Type, Uint256Type, Uint256Type, Uint256Type, Bytes32Type))
+
+  val orderDataV3BuyType =
+    Tuple1Type(Tuple4Type(Uint256Type, Uint256Type, Uint256Type, Bytes32Type))
+
   val orderDataV3Type =
     Tuple1Type(Tuple3Type(VarArrayType(addressUintType), VarArrayType(addressUintType), Uint8Type))
 
