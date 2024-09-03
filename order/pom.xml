@@ -254,6 +254,13 @@
                             <packageName>com.rarible.protocol.contracts.exchange.x2y2.v1</packageName>
                             <type>MONO</type>
                         </contract>
+
+                        <!-- Entry point -->
+                        <contract>
+                            <abi>src/main/truffle/erc4337/EntryPoint.json</abi>
+                            <packageName>com.rarible.protocol.contracts.erc4337</packageName>
+                            <type>MONO</type>
+                        </contract>
                     </contracts>
                 </configuration>
             </plugin>
