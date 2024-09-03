@@ -256,6 +256,7 @@
                         </contract>
 
                         <!-- Entry point -->
+                        <!-- https://etherscan.io/address/0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789#code -->
                         <contract>
                             <abi>src/main/truffle/erc4337/EntryPoint.json</abi>
                             <packageName>com.rarible.protocol.contracts.erc4337</packageName>
